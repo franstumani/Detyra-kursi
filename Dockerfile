@@ -1,4 +1,4 @@
-FROM adoptopenjdk:17.0.9-jdk-hotspot
+FROM adoptopenjdk:17-jdk-hotspot
 VOLUME /tmp
 EXPOSE 8080
 WORKDIR /app
