@@ -1,4 +1,4 @@
-FROM adoptopenjdk:17-jdk-hotspot
+FROM eclipse-temurin:19-alpine
 VOLUME /tmp
 EXPOSE 8080
 WORKDIR /app
